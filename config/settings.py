@@ -11,7 +11,7 @@ SECRET_KEY = os.environ.get("SECRET_KEY", "django-insecure-local-dev-only")
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
-MPESA_SIMULATED = true
+MPESA_SIMULATED = True
 
 ALLOWED_HOSTS = ["store.njeri.co.ke", ".onrender.com", "localhost", "127.0.0.1"]
 CSRF_TRUSTED_ORIGINS = ["https://store.njeri.co.ke", "https://*.onrender.com"]
